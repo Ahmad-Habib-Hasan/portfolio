@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&family=Londrina+Solid:wght@100;300;400;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+}
+
+
+a{
+    text-decoration: none;
+    color: #352F44;
+}
+
+
+nav{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+header{
+    background-color: #B9B4C7;
+    display: flex;
+    justify-content: space-between;
+}
+#logo{
+    width: 200px;
+    margin-top: 10px;
+}
+
+
+
+.headerUl{
+    width: 600px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.link{
+    font-family: 'Londrina shadow' ;
+    font-size: 35px;
+}
+.headerElement{
+    color: #352F44;
+    transition-duration: 1.5s;
+    
+}
+.headerElement:hover{
+    letter-spacing: 2px;
+}
+.active{
+    font-family: 'londrina solid';
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #352F44;
+    height:80%;
+    
+}
+.ahmedPhoto{
+    width: 400px;
+}
+.leftSide{
+    color: white;
+    font-size: 52px;
+    margin-left: 10px;
+
+}
+.leftSideAbout{
+    color: white;
+    font-size: 34px;
+    margin-left: 10px;
+    width: 400px;
+    
+}
+.changeFont{
+    font-family: 'londrina solid';
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #B9B4C7;
+    height: 115px;
+    margin-top: auto;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+}
+.icon{
+    width: 60px;
+    transition-duration: 1.5s;
+}
+.icon:hover{
+    filter: brightness(0) saturate(100%) invert(18%) sepia(15%) saturate(956%) hue-rotate(216deg) brightness(94%) contrast(94%);
+}
+@media screen and (max-width:806px) {
+    header{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        border: green solid;
+        height: 500px;
+    }
+    .headerUl{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 150px;
+        height: 200px;
+
+    }
+    main{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        border: blue solid 1px;
+    }
+    .leftSide{
+        font-size: 30px;
+        width: 250px;
+    }
+    .leftSideAbout{
+        font-size: 25px;
+        width: 275px;
+    }
+    .ahmedPhoto{
+        width: 200px;
+    }
+    footer{
+        flex-direction: column-reverse;
+        text-align: center;
+        justify-content: space-around;
+        height: 300px;
+        border: red solid;
+    }
+    .icon{
+        width: 50px;
+    }
+    nav{
+
+        border: yellow solid;
+    }
+}
