@@ -105,7 +105,6 @@ footer{
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
-        border: green solid;
         height: 500px;
     }
     .headerUl{
@@ -120,7 +119,6 @@ footer{
         flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
-        border: blue solid 1px;
     }
     .leftSide{
         font-size: 30px;
@@ -138,13 +136,9 @@ footer{
         text-align: center;
         justify-content: space-around;
         height: 300px;
-        border: red solid;
     }
     .icon{
         width: 50px;
     }
-    nav{
 
-        border: yellow solid;
-    }
 }
